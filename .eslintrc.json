@@ -15,8 +15,21 @@
     "plugin:import/typescript"
   ],
   "plugins": ["prettier"],
-  "rules": {
-    "prettier/prettier": ["error"]
+  "parser": "@typescript-eslint/parser",
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    },
+    "react": {
+      "version": "latest"
+    }
   },
-  "parser": "@typescript-eslint/parser"
+  "rules": {
+    "prettier/prettier": ["error"], // Error when prettier rule aren't followed.
+    "global-require": 0,
+    "import/extensions": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }]
+  }
 }

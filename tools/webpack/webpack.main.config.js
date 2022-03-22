@@ -6,7 +6,7 @@ module.exports = {
   entry: './src/main/main.ts',
   // Put your normal webpack config below here
   module: {
-    rules: require('../common/webpack.rules'),
+    rules: require('./common/webpack.rules'),
   },
   resolve: {
     extensions: ['.js', '.ts', '.jsx', '.tsx', '.css', '.json'],

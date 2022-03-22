@@ -1,5 +1,5 @@
-const rules = require('../common/webpack.rules');
-const plugins = require('../common/webpack.plugins');
+const rules = require('./common/webpack.rules');
+const plugins = require('./common/webpack.plugins');
 
 rules.push({
   test: /\.css$/,
@@ -10,7 +10,7 @@ module.exports = {
   module: {
     rules,
   },
-  plugins: plugins,
+  plugins,
   resolve: {
     extensions: ['.js', '.ts', '.jsx', '.tsx', '.css'],
   },
