@@ -9,10 +9,11 @@
     "noImplicitAny": true,
     "sourceMap": true,
     "baseUrl": ".",
-    "outDir": "dist",
+    "outDir": "out/",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "paths": {
+      "assets/*": ["./assets/*"],
       "*": ["node_modules/*"]
     }
   },

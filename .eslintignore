@@ -1,3 +1,4 @@
 # We ignore the eslint rules for js as it's only used in our webpack configurations.
 *.js
 .webpack/*
+.out/*
