@@ -13,7 +13,8 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "paths": {
-      "assets/*": ["./assets/*"],
+      "@assets/*": ["./assets/*"],
+      "@types/*": ["./types/*"],
       "*": ["node_modules/*"]
     }
   },

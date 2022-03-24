@@ -18,6 +18,10 @@
   "parser": "@typescript-eslint/parser",
   "settings": {
     "import/resolver": {
+      "alias": {
+        "map": [["@assets", "./assets"]],
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      },
       "node": {
         "extensions": [".js", ".jsx", ".ts", ".tsx"]
       }

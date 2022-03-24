@@ -1,7 +1,10 @@
 import React from 'react';
 import '../styles/App.css';
-import reactPng from 'assets/img/react.png';
-import electronSvg from 'assets/img/electron.svg';
+import reactPng from '@assets/img/react.png';
+import electronSvg from '@assets/img/electron.svg';
+import { Window } from '@types/window';
+
+declare const window: Window;
 
 function App(): JSX.Element {
   return (

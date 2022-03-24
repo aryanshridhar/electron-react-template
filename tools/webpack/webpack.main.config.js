@@ -1,3 +1,5 @@
+const alias = require('./common/webpack.alias');
+
 module.exports = {
   /**
    * This is the main entry point for your application, it's the first file
@@ -10,5 +12,6 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.ts', '.jsx', '.tsx', '.css', '.json'],
+    alias: alias,
   },
 };
