@@ -13,10 +13,10 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "paths": {
+      "*": ["node_modules/*"],
       "@assets/*": ["./assets/*"],
-      "@types/*": ["./types/*"],
-      "*": ["node_modules/*"]
+      "@customtypes/*": ["./types/*"]
     }
   },
-  "include": ["./src/**/*.ts"]
+  "include": ["./src/**/*", "./tools/**/*", "./index.d.ts"]
 }

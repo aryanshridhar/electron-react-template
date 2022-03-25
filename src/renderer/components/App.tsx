@@ -1,8 +1,9 @@
-import React from 'react';
 import '../styles/App.css';
-import reactPng from '@assets/img/react.png';
+
 import electronSvg from '@assets/img/electron.svg';
-import { Window } from '@types/window';
+import reactPng from '@assets/img/react.png';
+import { Window } from '@customtypes/window';
+import React from 'react';
 
 declare const window: Window;
 
@@ -21,7 +22,7 @@ function App(): JSX.Element {
               <li>Typescript</li>
               <li>Electron forge</li>
               <li>Webpack</li>
-              <li>Hot reloading</li>
+              <li>Hot reloading in renderer process</li>
             </ul>
           </div>
           <div>

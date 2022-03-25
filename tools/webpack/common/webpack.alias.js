@@ -3,5 +3,5 @@ const cwd = process.cwd();
 
 module.exports = {
   '@assets': path.join(cwd, 'assets'),
-  '@types': path.join(cwd, 'types'),
+  '@customtypes': path.join(cwd, 'types'),
 };

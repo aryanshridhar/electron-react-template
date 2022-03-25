@@ -14,26 +14,31 @@
     "plugin:import/electron",
     "plugin:import/typescript"
   ],
-  "plugins": ["prettier"],
+  "plugins": ["prettier", "simple-import-sort"],
   "parser": "@typescript-eslint/parser",
   "settings": {
     "import/resolver": {
-      "alias": {
-        "map": [["@assets", "./assets"]],
+      "node": {
         "extensions": [".js", ".jsx", ".ts", ".tsx"]
       },
-      "node": {
+      "alias": {
+        "map": [
+          ["@assets", "./assets/"],
+          ["@customtypes", "./types/"]
+        ],
         "extensions": [".js", ".jsx", ".ts", ".tsx"]
       }
     },
     "react": {
-      "version": "latest"
+      "version": "detect"
     }
   },
   "rules": {
     "prettier/prettier": ["error"], // Error when prettier rule aren't followed.
     "global-require": 0,
     "import/extensions": 0,
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }]
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+    "simple-import-sort/exports": "error",
+    "simple-import-sort/imports": "error"
   }
 }

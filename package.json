@@ -9,8 +9,8 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "lint": "eslint --ext .ts,.tsx .",
-    "lint:fix": "eslint --fix",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "prettify": "yarn prettier --write ."
   },
   "keywords": [],
@@ -44,6 +44,7 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
     "fork-ts-checker-webpack-plugin": "^6.0.1",
     "node-loader": "^2.0.0",
     "prettier": "2.6.0",
