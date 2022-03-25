@@ -144,3 +144,10 @@ yarn lint:fix && yarn prettify
 ```
 
 That's it!
+
+### What's next ?
+
+Adhering to the rules/guidelines checklist set by electron concerning the security of application is a must.
+For more information - https://www.electronjs.org/docs/latest/tutorial/security#checklist-security-recommendations
+
+Probably this can be a part of next release! ;)
