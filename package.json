@@ -13,12 +13,23 @@
     "lint:fix": "eslint . --fix",
     "prettify": "yarn prettier --write ."
   },
-  "keywords": [],
+  "keywords": [
+    "electron",
+    "template",
+    "forge",
+    "webpack",
+    "hot reloading",
+    "typescript"
+  ],
   "author": {
     "name": "aryanshridhar",
     "email": "aryanshridhar7@gmail.com"
   },
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aryanshridhar/electron-react-template/issues"
+  },
+  "homepage": "https://github.com/aryanshridhar/electron-react-template#readme",
   "config": {
     "forge": "./tools/forge/forge.config.js"
   },
