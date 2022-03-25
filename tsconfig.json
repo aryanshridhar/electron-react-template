@@ -18,5 +18,5 @@
       "@customtypes/*": ["./types/*"]
     }
   },
-  "include": ["./src/**/*", "./tools/**/*", "./index.d.ts"]
+  "include": ["./src/**/*", "./tools/**/*", "./types/**/*"]
 }
