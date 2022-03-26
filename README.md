@@ -1,4 +1,4 @@
-## secure-electron-template
+## electron-react-template
 
 A short but powerful template to get you started with electron and typescript quickly.
 
